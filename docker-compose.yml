@@ -1,0 +1,45 @@
+version: "3.3"
+services:
+  mongo:
+    image: 'mongo'
+    container_name: news-analyzer_mongo
+    restart: always
+    volumes:
+      - ./mongo/init.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+      - /home/backup/data:/data/db
+    ports:
+      - '127.0.0.1:27017:27017'
+
+  web-client-api:
+    container_name: news-analyzer_web-client-api
+    build: ./web-client-api
+    image: news-analyzer_web-client-api
+    restart: always
+    ports:
+      - "127.0.0.1:8000:8000"
+    depends_on:
+      - mongo
+    links:
+      - mongo
+    logging:
+      driver: "json-file"
+      options:
+        max-file: "10"
+        max-size: "10m"
+
+  web-client:
+    container_name: news-analyzer_web-client
+    build: ./web-client
+    image: news-analyzer_web-client
+    restart: always
+    ports:
+      - "443:443"
+      - "80:80"
+    depends_on:
+      - mongo
+      - web-client-api
+    logging:
+      driver: "json-file"
+      options:
+        max-file: "5"
+        max-size: "10m"

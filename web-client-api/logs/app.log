@@ -1,0 +1,1147 @@
+error: uncaughtException: Unexpected token {
+/home/matant/Wintego/Projects/news-analayzer/web-client-api/news_api.js:6
+import {wordsCounter, buildNewsUrl} from './utils'
+       ^
+
+SyntaxError: Unexpected token {
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18) {"error":{},"stack":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/news_api.js:6\nimport {wordsCounter, buildNewsUrl} from './utils'\n       ^\n\nSyntaxError: Unexpected token {\n    at new Script (vm.js:80:7)\n    at createScript (vm.js:274:10)\n    at Object.runInThisContext (vm.js:326:10)\n    at Module._compile (internal/modules/cjs/loader.js:664:28)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)\n    at Module.load (internal/modules/cjs/loader.js:600:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:531:3)\n    at Module.require (internal/modules/cjs/loader.js:637:17)\n    at require (internal/modules/cjs/helpers.js:22:18)","exception":true,"date":"Sun Oct 25 2020 20:17:26 GMT+0200 (Israel Standard Time)","process":{"pid":388936,"uid":1000,"gid":1000,"cwd":"/home/matant/Wintego/Projects/news-analayzer/web-client-api","execPath":"/usr/local/bin/node","version":"v10.15.3","argv":["/usr/local/bin/node","/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js"],"memoryUsage":{"rss":38309888,"heapTotal":13352960,"heapUsed":7623936,"external":113070}},"os":{"loadavg":[1.966796875,2.14111328125,1.6396484375],"uptime":16603},"trace":[{"column":7,"file":"vm.js","function":"new Script","line":80,"method":null,"native":false},{"column":10,"file":"vm.js","function":"createScript","line":274,"method":null,"native":false},{"column":10,"file":"vm.js","function":"Object.runInThisContext","line":326,"method":"runInThisContext","native":false},{"column":28,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":664,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":712,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":600,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":539,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":531,"method":"_load","native":false},{"column":17,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":637,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":22,"method":null,"native":false}]}
+error: uncaughtException: Unexpected token export
+/home/matant/Wintego/Projects/news-analayzer/web-client-api/consts.js:3
+export const NEWS_API_KEY = "1a4965959ca9454e954fefade8e24002"
+^^^^^^
+
+SyntaxError: Unexpected token export
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18) {"error":{},"stack":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/consts.js:3\nexport const NEWS_API_KEY = \"1a4965959ca9454e954fefade8e24002\"\n^^^^^^\n\nSyntaxError: Unexpected token export\n    at new Script (vm.js:80:7)\n    at createScript (vm.js:274:10)\n    at Object.runInThisContext (vm.js:326:10)\n    at Module._compile (internal/modules/cjs/loader.js:664:28)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)\n    at Module.load (internal/modules/cjs/loader.js:600:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:531:3)\n    at Module.require (internal/modules/cjs/loader.js:637:17)\n    at require (internal/modules/cjs/helpers.js:22:18)","exception":true,"date":"Sun Oct 25 2020 20:18:02 GMT+0200 (Israel Standard Time)","process":{"pid":390807,"uid":1000,"gid":1000,"cwd":"/home/matant/Wintego/Projects/news-analayzer/web-client-api","execPath":"/usr/local/bin/node","version":"v10.15.3","argv":["/usr/local/bin/node","/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js"],"memoryUsage":{"rss":44089344,"heapTotal":21217280,"heapUsed":10091680,"external":35431}},"os":{"loadavg":[1.48828125,1.9990234375,1.6103515625],"uptime":16638},"trace":[{"column":7,"file":"vm.js","function":"new Script","line":80,"method":null,"native":false},{"column":10,"file":"vm.js","function":"createScript","line":274,"method":null,"native":false},{"column":10,"file":"vm.js","function":"Object.runInThisContext","line":326,"method":"runInThisContext","native":false},{"column":28,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":664,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":712,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":600,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":539,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":531,"method":"_load","native":false},{"column":17,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":637,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":22,"method":null,"native":false}]}
+error: uncaughtException: Unexpected token export
+/home/matant/Wintego/Projects/news-analayzer/web-client-api/consts.js:3
+export const NEWS_API_KEY = "1a4965959ca9454e954fefade8e24002"
+^^^^^^
+
+SyntaxError: Unexpected token export
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18) {"error":{},"stack":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/consts.js:3\nexport const NEWS_API_KEY = \"1a4965959ca9454e954fefade8e24002\"\n^^^^^^\n\nSyntaxError: Unexpected token export\n    at new Script (vm.js:80:7)\n    at createScript (vm.js:274:10)\n    at Object.runInThisContext (vm.js:326:10)\n    at Module._compile (internal/modules/cjs/loader.js:664:28)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)\n    at Module.load (internal/modules/cjs/loader.js:600:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:531:3)\n    at Module.require (internal/modules/cjs/loader.js:637:17)\n    at require (internal/modules/cjs/helpers.js:22:18)","exception":true,"date":"Sun Oct 25 2020 20:18:26 GMT+0200 (Israel Standard Time)","process":{"pid":391825,"uid":1000,"gid":1000,"cwd":"/home/matant/Wintego/Projects/news-analayzer/web-client-api","execPath":"/usr/local/bin/node","version":"v10.15.3","argv":["/usr/local/bin/node","/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js"],"memoryUsage":{"rss":43917312,"heapTotal":21217280,"heapUsed":10110008,"external":35431}},"os":{"loadavg":[1.201171875,1.88671875,1.58251953125],"uptime":16662},"trace":[{"column":7,"file":"vm.js","function":"new Script","line":80,"method":null,"native":false},{"column":10,"file":"vm.js","function":"createScript","line":274,"method":null,"native":false},{"column":10,"file":"vm.js","function":"Object.runInThisContext","line":326,"method":"runInThisContext","native":false},{"column":28,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":664,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":712,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":600,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":539,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":531,"method":"_load","native":false},{"column":17,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":637,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":22,"method":null,"native":false}]}
+error: uncaughtException: Unexpected token *
+/home/matant/Wintego/Projects/news-analayzer/web-client-api/news_api.js:4
+import * as consts from './consts'
+       ^
+
+SyntaxError: Unexpected token *
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18) {"error":{},"stack":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/news_api.js:4\nimport * as consts from './consts'\n       ^\n\nSyntaxError: Unexpected token *\n    at new Script (vm.js:80:7)\n    at createScript (vm.js:274:10)\n    at Object.runInThisContext (vm.js:326:10)\n    at Module._compile (internal/modules/cjs/loader.js:664:28)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)\n    at Module.load (internal/modules/cjs/loader.js:600:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:531:3)\n    at Module.require (internal/modules/cjs/loader.js:637:17)\n    at require (internal/modules/cjs/helpers.js:22:18)","exception":true,"date":"Sun Oct 25 2020 20:20:49 GMT+0200 (Israel Standard Time)","process":{"pid":399346,"uid":1000,"gid":1000,"cwd":"/home/matant/Wintego/Projects/news-analayzer/web-client-api","execPath":"/usr/local/bin/node","version":"v10.15.3","argv":["/usr/local/bin/node","/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js"],"memoryUsage":{"rss":38313984,"heapTotal":13877248,"heapUsed":7630032,"external":113070}},"os":{"loadavg":[1.9921875,1.8095703125,1.58837890625],"uptime":16805},"trace":[{"column":7,"file":"vm.js","function":"new Script","line":80,"method":null,"native":false},{"column":10,"file":"vm.js","function":"createScript","line":274,"method":null,"native":false},{"column":10,"file":"vm.js","function":"Object.runInThisContext","line":326,"method":"runInThisContext","native":false},{"column":28,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":664,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":712,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":600,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":539,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":531,"method":"_load","native":false},{"column":17,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":637,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":22,"method":null,"native":false}]}
+error: uncaughtException: Unexpected token export
+/home/matant/Wintego/Projects/news-analayzer/web-client-api/consts.js:3
+export const NEWS_API_KEY = "1a4965959ca9454e954fefade8e24002"
+^^^^^^
+
+SyntaxError: Unexpected token export
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18) {"error":{},"stack":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/consts.js:3\nexport const NEWS_API_KEY = \"1a4965959ca9454e954fefade8e24002\"\n^^^^^^\n\nSyntaxError: Unexpected token export\n    at new Script (vm.js:80:7)\n    at createScript (vm.js:274:10)\n    at Object.runInThisContext (vm.js:326:10)\n    at Module._compile (internal/modules/cjs/loader.js:664:28)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)\n    at Module.load (internal/modules/cjs/loader.js:600:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:531:3)\n    at Module.require (internal/modules/cjs/loader.js:637:17)\n    at require (internal/modules/cjs/helpers.js:22:18)","exception":true,"date":"Sun Oct 25 2020 20:21:08 GMT+0200 (Israel Standard Time)","process":{"pid":400253,"uid":1000,"gid":1000,"cwd":"/home/matant/Wintego/Projects/news-analayzer/web-client-api","execPath":"/usr/local/bin/node","version":"v10.15.3","argv":["/usr/local/bin/node","/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js"],"memoryUsage":{"rss":43720704,"heapTotal":21217280,"heapUsed":10083296,"external":35431}},"os":{"loadavg":[2.345703125,1.90283203125,1.6240234375],"uptime":16824},"trace":[{"column":7,"file":"vm.js","function":"new Script","line":80,"method":null,"native":false},{"column":10,"file":"vm.js","function":"createScript","line":274,"method":null,"native":false},{"column":10,"file":"vm.js","function":"Object.runInThisContext","line":326,"method":"runInThisContext","native":false},{"column":28,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":664,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":712,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":600,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":539,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":531,"method":"_load","native":false},{"column":17,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":637,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":22,"method":null,"native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/express/lib/router/index.js:458:13)
+    at Function.<anonymous> (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js:22:5)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3) {"error":{},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/express/lib/router/index.js:458:13)\n    at Function.<anonymous> (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/express/lib/application.js:220:21)\n    at Array.forEach (<anonymous>)\n    at Function.use (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/express/lib/application.js:217:7)\n    at Object.<anonymous> (/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js:22:5)\n    at Module._compile (internal/modules/cjs/loader.js:701:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)\n    at Module.load (internal/modules/cjs/loader.js:600:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:531:3)","exception":true,"date":"Sun Oct 25 2020 20:22:18 GMT+0200 (Israel Standard Time)","process":{"pid":403956,"uid":1000,"gid":1000,"cwd":"/home/matant/Wintego/Projects/news-analayzer/web-client-api","execPath":"/usr/local/bin/node","version":"v10.15.3","argv":["/usr/local/bin/node","/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js"],"memoryUsage":{"rss":45645824,"heapTotal":21741568,"heapUsed":11418096,"external":108762}},"os":{"loadavg":[1.916015625,1.86474609375,1.63037109375],"uptime":16894},"trace":[{"column":13,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/express/lib/router/index.js","function":"Function.use","line":458,"method":"use","native":false},{"column":21,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/express/lib/application.js","function":null,"line":220,"method":null,"native":false},{"column":null,"file":null,"function":"Array.forEach","line":null,"method":"forEach","native":false},{"column":7,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/express/lib/application.js","function":"Function.use","line":217,"method":"use","native":false},{"column":5,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js","function":null,"line":22,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":701,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":712,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":600,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":539,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":531,"method":"_load","native":false}]}
+error: uncaughtException: news_api is not defined
+ReferenceError: news_api is not defined
+    at Object.<anonymous> (/home/matant/Wintego/Projects/news-analayzer/web-client-api/news_api.js:78:18)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js:5:18)
+    at Module._compile (internal/modules/cjs/loader.js:701:30) {"error":{},"stack":"ReferenceError: news_api is not defined\n    at Object.<anonymous> (/home/matant/Wintego/Projects/news-analayzer/web-client-api/news_api.js:78:18)\n    at Module._compile (internal/modules/cjs/loader.js:701:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)\n    at Module.load (internal/modules/cjs/loader.js:600:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:531:3)\n    at Module.require (internal/modules/cjs/loader.js:637:17)\n    at require (internal/modules/cjs/helpers.js:22:18)\n    at Object.<anonymous> (/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js:5:18)\n    at Module._compile (internal/modules/cjs/loader.js:701:30)","exception":true,"date":"Sun Oct 25 2020 20:22:59 GMT+0200 (Israel Standard Time)","process":{"pid":406206,"uid":1000,"gid":1000,"cwd":"/home/matant/Wintego/Projects/news-analayzer/web-client-api","execPath":"/usr/local/bin/node","version":"v10.15.3","argv":["/usr/local/bin/node","/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js"],"memoryUsage":{"rss":45035520,"heapTotal":21217280,"heapUsed":11167160,"external":102139}},"os":{"loadavg":[1.72705078125,1.81982421875,1.62451171875],"uptime":16935},"trace":[{"column":18,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/news_api.js","function":null,"line":78,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":701,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":712,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":600,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":539,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":531,"method":"_load","native":false},{"column":17,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":637,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":22,"method":null,"native":false},{"column":18,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js","function":null,"line":5,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":701,"method":"_compile","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::8000
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1270:14)
+    at listenInCluster (net.js:1318:12)
+    at Server.listen (net.js:1405:7)
+    at Object.<anonymous> (/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12) {"error":{"code":"EADDRINUSE","errno":"EADDRINUSE","syscall":"listen","address":"::","port":8000},"stack":"Error: listen EADDRINUSE: address already in use :::8000\n    at Server.setupListenHandle [as _listen2] (net.js:1270:14)\n    at listenInCluster (net.js:1318:12)\n    at Server.listen (net.js:1405:7)\n    at Object.<anonymous> (/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js:23:8)\n    at Module._compile (internal/modules/cjs/loader.js:701:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)\n    at Module.load (internal/modules/cjs/loader.js:600:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:531:3)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)","exception":true,"date":"Sun Oct 25 2020 20:23:12 GMT+0200 (Israel Standard Time)","process":{"pid":406608,"uid":1000,"gid":1000,"cwd":"/home/matant/Wintego/Projects/news-analayzer/web-client-api","execPath":"/usr/local/bin/node","version":"v10.15.3","argv":["/usr/local/bin/node","/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js"],"memoryUsage":{"rss":45383680,"heapTotal":22265856,"heapUsed":11672872,"external":108762}},"os":{"loadavg":[1.78857421875,1.8291015625,1.63134765625],"uptime":16948},"trace":[{"column":14,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1270,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1318,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1405,"method":"listen","native":false},{"column":8,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js","function":null,"line":23,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":701,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":712,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":600,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":539,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":531,"method":"_load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module.runMain","line":754,"method":"runMain","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::8000
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1270:14)
+    at listenInCluster (net.js:1318:12)
+    at Server.listen (net.js:1405:7)
+    at Object.<anonymous> (/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12) {"error":{"code":"EADDRINUSE","errno":"EADDRINUSE","syscall":"listen","address":"::","port":8000},"stack":"Error: listen EADDRINUSE: address already in use :::8000\n    at Server.setupListenHandle [as _listen2] (net.js:1270:14)\n    at listenInCluster (net.js:1318:12)\n    at Server.listen (net.js:1405:7)\n    at Object.<anonymous> (/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js:23:8)\n    at Module._compile (internal/modules/cjs/loader.js:701:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)\n    at Module.load (internal/modules/cjs/loader.js:600:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:531:3)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)","exception":true,"date":"Sun Oct 25 2020 20:24:27 GMT+0200 (Israel Standard Time)","process":{"pid":409693,"uid":1000,"gid":1000,"cwd":"/home/matant/Wintego/Projects/news-analayzer/web-client-api","execPath":"/usr/local/bin/node","version":"v10.15.3","argv":["/usr/local/bin/node","/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js"],"memoryUsage":{"rss":45432832,"heapTotal":21741568,"heapUsed":11569400,"external":98395}},"os":{"loadavg":[1.23828125,1.65625,1.5869140625],"uptime":17023},"trace":[{"column":14,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1270,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1318,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1405,"method":"listen","native":false},{"column":8,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js","function":null,"line":23,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":701,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":712,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":600,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":539,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":531,"method":"_load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module.runMain","line":754,"method":"runMain","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::8000
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1270:14)
+    at listenInCluster (net.js:1318:12)
+    at Server.listen (net.js:1405:7)
+    at Object.<anonymous> (/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js:23:8)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12) {"error":{"code":"EADDRINUSE","errno":"EADDRINUSE","syscall":"listen","address":"::","port":8000},"stack":"Error: listen EADDRINUSE: address already in use :::8000\n    at Server.setupListenHandle [as _listen2] (net.js:1270:14)\n    at listenInCluster (net.js:1318:12)\n    at Server.listen (net.js:1405:7)\n    at Object.<anonymous> (/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js:23:8)\n    at Module._compile (internal/modules/cjs/loader.js:701:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)\n    at Module.load (internal/modules/cjs/loader.js:600:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:531:3)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)","exception":true,"date":"Sun Oct 25 2020 20:24:29 GMT+0200 (Israel Standard Time)","process":{"pid":409724,"uid":1000,"gid":1000,"cwd":"/home/matant/Wintego/Projects/news-analayzer/web-client-api","execPath":"/usr/local/bin/node","version":"v10.15.3","argv":["/usr/local/bin/node","/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js"],"memoryUsage":{"rss":46137344,"heapTotal":21741568,"heapUsed":11653728,"external":108762}},"os":{"loadavg":[1.23828125,1.65625,1.5869140625],"uptime":17025},"trace":[{"column":14,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1270,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1318,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1405,"method":"listen","native":false},{"column":8,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js","function":null,"line":23,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":701,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":712,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":600,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":539,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":531,"method":"_load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module.runMain","line":754,"method":"runMain","native":false}]}
+info: WebClient API listening
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:18:28:02 +0000] "GET /api/news/sources HTTP/1.1" 200 3566 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:18:29:02 +0000] "GET /api/news/sources HTTP/1.1" 200 3566 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:18:29:33 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:18:29:50 +0000] "GET /api/news/sources HTTP/1.1" 200 3566 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:18:30:02 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:18:30:21 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:18:31:10 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:18:31:49 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: WebClient API listening
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:18:33:23 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:18:36:08 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:18:36:51 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:18:37:49 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:19:49:07 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:19:59:54 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:20:01:14 +0000] "GET /babel/parser/lib/index.js HTTP/1.1" 404 164 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:20:01:20 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:20:01:56 +0000] "GET /api/news/sources HTTP/1.1" 200 3566 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:20:02:39 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:20:06:39 +0000] "GET /api/news/sources HTTP/1.1" 200 3566 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:20:07:26 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:20:09:27 +0000] "GET /api/news/sources HTTP/1.1" 200 3566 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:20:27:40 +0000] "GET /babel/parser/lib/index.js HTTP/1.1" 404 164 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:20:28:39 +0000] "GET /babel/parser/lib/index.js HTTP/1.1" 404 164 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [25/Oct/2020:20:30:44 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: WebClient API listening
+info: ::1 - - [25/Oct/2020:21:20:26 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-1025 HTTP/1.1" 404 152 "-" "PostmanRuntime/7.26.5"
+
+info: ::1 - - [25/Oct/2020:21:20:43 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 404 152 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+error: Cannot read property 'articles' of undefined
+info: ::1 - - [25/Oct/2020:21:21:12 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+error: Request failed with status code 400 {"config":{"url":"http://newsapi.org/v2/everything?language=en&pageSize=100&sortBy=publishedAt&from=undefined&to=undefined&\n          sources=undefined&apiKey=1a4965959ca9454e954fefade8e24002","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.21.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1}}
+info: ::1 - - [25/Oct/2020:21:21:43 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+error: Request failed with status code 400 {"config":{"url":"http://newsapi.org/v2/everything?language=en&pageSize=100&sortBy=publishedAt&from=undefined&to=undefined&\n          sources=undefined&apiKey=1a4965959ca9454e954fefade8e24002","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.21.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1}}
+info: ::1 - - [25/Oct/2020:21:22:42 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+error: Request failed with status code 400 {"config":{"url":"http://newsapi.org/v2/everything?language=en&pageSize=100&sortBy=publishedAt&from=undefined&to=undefined&sources=undefined&apiKey=1a4965959ca9454e954fefade8e24002","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.21.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1}}
+info: ::1 - - [25/Oct/2020:21:24:33 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+error: Request failed with status code 400 {"config":{"url":"http://newsapi.org/v2/everything?language=en&pageSize=100&sortBy=publishedAt&from=undefined&to=undefined&sources=undefined&apiKey=1a4965959ca9454e954fefade8e24002","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.21.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1}}
+info: ::1 - - [25/Oct/2020:21:25:37 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+error: Request failed with status code 400 {"config":{"url":"http://newsapi.org/v2/everything?language=en&pageSize=100&sortBy=publishedAt&from=undefined&to=undefined&sources=undefined&apiKey=1a4965959ca9454e954fefade8e24002","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.21.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1}}
+info: ::1 - - [25/Oct/2020:21:26:15 +0000] "GET /api/news/load HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+error: Request failed with status code 400 {"config":{"url":"http://newsapi.org/v2/everything?language=en&pageSize=100&sortBy=publishedAt&from=undefined&to=undefined&sources=undefined&apiKey=1a4965959ca9454e954fefade8e24002","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.21.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1}}
+info: ::1 - - [25/Oct/2020:21:28:14 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: ::1 - - [25/Oct/2020:21:28:53 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 200 81496 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: ::1 - - [25/Oct/2020:21:32:16 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 200 8553 "-" "PostmanRuntime/7.26.5"
+
+info: ::ffff:127.0.0.1 - - [26/Oct/2020:07:19:17 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [26/Oct/2020:07:21:08 +0000] "GET /babel/parser/lib/index.js HTTP/1.1" 404 164 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [26/Oct/2020:07:21:09 +0000] "GET /babel/parser/lib/index.js HTTP/1.1" 404 164 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [26/Oct/2020:07:21:09 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [26/Oct/2020:07:21:14 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [26/Oct/2020:07:22:08 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [26/Oct/2020:07:22:21 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+error: Converting circular structure to JSON
+info: ::1 - - [26/Oct/2020:18:42:40 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+error: Converting circular structure to JSON
+info: ::1 - - [26/Oct/2020:18:50:26 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+error: uncaughtException: Unexpected token )
+/home/matant/Wintego/Projects/news-analayzer/web-client-api/news_api.js:40
+      )
+      ^
+
+SyntaxError: Unexpected token )
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18) {"error":{},"stack":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/news_api.js:40\n      )\n      ^\n\nSyntaxError: Unexpected token )\n    at new Script (vm.js:80:7)\n    at createScript (vm.js:274:10)\n    at Object.runInThisContext (vm.js:326:10)\n    at Module._compile (internal/modules/cjs/loader.js:664:28)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)\n    at Module.load (internal/modules/cjs/loader.js:600:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:531:3)\n    at Module.require (internal/modules/cjs/loader.js:637:17)\n    at require (internal/modules/cjs/helpers.js:22:18)","exception":true,"date":"Mon Oct 26 2020 20:50:53 GMT+0200 (Israel Standard Time)","process":{"pid":512760,"uid":1000,"gid":1000,"cwd":"/home/matant/Wintego/Projects/news-analayzer/web-client-api","execPath":"/usr/local/bin/node","version":"v10.15.3","argv":["/usr/local/bin/node","/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js"],"memoryUsage":{"rss":38395904,"heapTotal":13877248,"heapUsed":7624960,"external":113070}},"os":{"loadavg":[0.88671875,0.83203125,0.83837890625],"uptime":105009},"trace":[{"column":7,"file":"vm.js","function":"new Script","line":80,"method":null,"native":false},{"column":10,"file":"vm.js","function":"createScript","line":274,"method":null,"native":false},{"column":10,"file":"vm.js","function":"Object.runInThisContext","line":326,"method":"runInThisContext","native":false},{"column":28,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":664,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":712,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":600,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":539,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":531,"method":"_load","native":false},{"column":17,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":637,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":22,"method":null,"native":false}]}
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+info: ::1 - - [26/Oct/2020:18:51:24 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 200 22 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+error: Converting circular structure to JSON
+info: ::1 - - [26/Oct/2020:18:55:22 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+error: db is not defined
+info: ::1 - - [26/Oct/2020:18:58:10 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+error: Converting circular structure to JSON
+info: ::1 - - [26/Oct/2020:18:58:37 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+error: Converting circular structure to JSON
+info: ::1 - - [26/Oct/2020:19:03:42 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+info: ::1 - - [26/Oct/2020:19:04:38 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 200 19 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+info: ::1 - - [26/Oct/2020:19:05:36 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 200 19 "-" "PostmanRuntime/7.26.5"
+
+info: null
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+info: [object Object]
+info: ::1 - - [26/Oct/2020:19:06:02 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 200 19 "-" "PostmanRuntime/7.26.5"
+
+info: null
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+info: AggregationCursor {
+  _readableState:
+   ReadableState {
+     objectMode: true,
+     highWaterMark: 16,
+     buffer: BufferList { head: null, tail: null, length: 0 },
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: false,
+     endEmitted: false,
+     reading: false,
+     sync: true,
+     needReadable: false,
+     emittedReadable: false,
+     readableListening: false,
+     resumeScheduled: false,
+     paused: true,
+     emitClose: true,
+     destroyed: false,
+     defaultEncoding: 'utf8',
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  operation:
+   AggregateOperation {
+     options: { readPreference: [ReadPreference] },
+     ns: MongoDBNamespace { db: 'news-analyzer', collection: '$cmd' },
+     readPreference:
+      ReadPreference { mode: 'primary', tags: undefined, hedge: undefined },
+     readConcern: undefined,
+     writeConcern: undefined,
+     explain: false,
+     fullResponse: true,
+     target: 'occurrences',
+     pipeline: [ [Object], [Object], [Object], [Object], [Object] ],
+     hasWriteStage: false,
+     cursorState:
+      { cursorId: null,
+        cmd: {},
+        documents: [],
+        cursorIndex: 0,
+        dead: false,
+        killed: false,
+        init: false,
+        notified: false,
+        limit: 0,
+        skip: 0,
+        batchSize: 1000,
+        currentLimit: 0,
+        transforms: undefined,
+        raw: undefined,
+        reconnect: true } },
+  pool: null,
+  server: null,
+  disconnectHandler: undefined,
+  bson: undefined,
+  ns: 'news-analyzer.$cmd',
+  namespace: MongoDBNamespace { db: 'news-analyzer', collection: '$cmd' },
+  cmd: {},
+  options:
+   { readPreference:
+      ReadPreference { mode: 'primary', tags: undefined, hedge: undefined } },
+  topology:
+   Server {
+     _events:
+      [Object: null prototype] {
+        commandStarted: [Function],
+        commandSucceeded: [Function],
+        commandFailed: [Function],
+        serverOpening: [Function],
+        serverClosed: [Function],
+        serverDescriptionChanged: [Function],
+        serverHeartbeatStarted: [Function],
+        serverHeartbeatSucceeded: [Function],
+        serverHeartbeatFailed: [Function],
+        topologyOpening: [Function],
+        topologyClosed: [Function],
+        topologyDescriptionChanged: [Function],
+        joined: [Function],
+        left: [Function],
+        ping: [Function],
+        ha: [Function],
+        connectionPoolCreated: [Function],
+        connectionPoolClosed: [Function],
+        connectionCreated: [Function],
+        connectionReady: [Function],
+        connectionClosed: [Function],
+        connectionCheckOutStarted: [Function],
+        connectionCheckOutFailed: [Function],
+        connectionCheckedOut: [Function],
+        connectionCheckedIn: [Function],
+        connectionPoolCleared: [Function],
+        authenticated: [Function],
+        error: [Array],
+        timeout: [Array],
+        close: [Array],
+        parseError: [Array],
+        open: [Array],
+        fullsetup: [Array],
+        all: [Array],
+        reconnect: [Array] },
+     _eventsCount: 35,
+     _maxListeners: Infinity,
+     s:
+      { coreTopology: [Server],
+        sCapabilities: [ServerCapabilities],
+        clonedOptions: [Object],
+        reconnect: true,
+        emitError: true,
+        poolSize: 5,
+        storeOptions: [Object],
+        store: [Store],
+        host: '172.20.0.2',
+        port: 27017,
+        options: [Object],
+        sessionPool: [ServerSessionPool],
+        sessions: Set {},
+        promiseLibrary: [Function: Promise] } },
+  cursorState:
+   { cursorId: null,
+     cmd: {},
+     documents: [],
+     cursorIndex: 0,
+     dead: false,
+     killed: false,
+     init: false,
+     notified: false,
+     limit: 0,
+     skip: 0,
+     batchSize: 1000,
+     currentLimit: 0,
+     transforms: undefined,
+     raw: undefined,
+     reconnect: true },
+  logger: Logger { className: 'Cursor' },
+  s:
+   { numberOfRetries: 5,
+     tailableRetryInterval: 500,
+     currentNumberOfRetries: 5,
+     state: 0,
+     promiseLibrary: [Function: Promise],
+     explicitlyIgnoreSession: false } }
+info: ::1 - - [26/Oct/2020:19:06:27 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 200 19 "-" "PostmanRuntime/7.26.5"
+
+info: null
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+info: ::1 - - [26/Oct/2020:19:09:57 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 200 19 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+error: [{(intermediate value)},{(intermediate value)},{(intermediate value)},{(intermediate value)},{(intermediate value)}].toArray is not a function
+info: ::1 - - [26/Oct/2020:19:12:38 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+error: [{(intermediate value)},{(intermediate value)},{(intermediate value)},{(intermediate value)},{(intermediate value)}].then is not a function
+info: ::1 - - [26/Oct/2020:19:14:56 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::8000
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1270:14)
+    at listenInCluster (net.js:1318:12)
+    at Server.listen (net.js:1405:7)
+    at Object.<anonymous> (/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js:34:16)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12) {"error":{"code":"EADDRINUSE","errno":"EADDRINUSE","syscall":"listen","address":"::","port":8000},"stack":"Error: listen EADDRINUSE: address already in use :::8000\n    at Server.setupListenHandle [as _listen2] (net.js:1270:14)\n    at listenInCluster (net.js:1318:12)\n    at Server.listen (net.js:1405:7)\n    at Object.<anonymous> (/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js:34:16)\n    at Module._compile (internal/modules/cjs/loader.js:701:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)\n    at Module.load (internal/modules/cjs/loader.js:600:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:531:3)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)","exception":true,"date":"Mon Oct 26 2020 21:16:14 GMT+0200 (Israel Standard Time)","process":{"pid":515678,"uid":1000,"gid":1000,"cwd":"/home/matant/Wintego/Projects/news-analayzer/web-client-api","execPath":"/usr/local/bin/node","version":"v10.15.3","argv":["/usr/local/bin/node","/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js"],"memoryUsage":{"rss":58101760,"heapTotal":38518784,"heapUsed":16823704,"external":18568780}},"os":{"loadavg":[2.03369140625,1.9482421875,1.53271484375],"uptime":106530},"trace":[{"column":14,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1270,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1318,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1405,"method":"listen","native":false},{"column":16,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js","function":null,"line":34,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":701,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":712,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":600,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":539,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":531,"method":"_load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module.runMain","line":754,"method":"runMain","native":false}]}
+info: MongoDB connected
+error: uncaughtException: listen EADDRINUSE: address already in use :::8000
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1270:14)
+    at listenInCluster (net.js:1318:12)
+    at Server.listen (net.js:1405:7)
+    at Object.<anonymous> (/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js:34:16)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12) {"error":{"code":"EADDRINUSE","errno":"EADDRINUSE","syscall":"listen","address":"::","port":8000},"stack":"Error: listen EADDRINUSE: address already in use :::8000\n    at Server.setupListenHandle [as _listen2] (net.js:1270:14)\n    at listenInCluster (net.js:1318:12)\n    at Server.listen (net.js:1405:7)\n    at Object.<anonymous> (/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js:34:16)\n    at Module._compile (internal/modules/cjs/loader.js:701:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)\n    at Module.load (internal/modules/cjs/loader.js:600:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:531:3)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)","exception":true,"date":"Mon Oct 26 2020 21:16:41 GMT+0200 (Israel Standard Time)","process":{"pid":515731,"uid":1000,"gid":1000,"cwd":"/home/matant/Wintego/Projects/news-analayzer/web-client-api","execPath":"/usr/local/bin/node","version":"v10.15.3","argv":["/usr/local/bin/node","/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js"],"memoryUsage":{"rss":58236928,"heapTotal":37994496,"heapUsed":17124336,"external":18568780}},"os":{"loadavg":[2.353515625,2.033203125,1.572265625],"uptime":106557},"trace":[{"column":14,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1270,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1318,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1405,"method":"listen","native":false},{"column":16,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js","function":null,"line":34,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":701,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":712,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":600,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":539,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":531,"method":"_load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module.runMain","line":754,"method":"runMain","native":false}]}
+info: MongoDB connected
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+error: [{(intermediate value)},{(intermediate value)},{(intermediate value)},{(intermediate value)},{(intermediate value)}].toArray is not a function
+info: ::1 - - [26/Oct/2020:19:17:28 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+error: db.collection(...).aggregate(...).then is not a function
+info: ::1 - - [26/Oct/2020:19:19:14 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+info: ::1 - - [26/Oct/2020:19:44:58 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 200 18 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+info: ::1 - - [26/Oct/2020:20:08:32 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 200 18 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+error: db.collection(...).aggregate(...).exec is not a function
+info: ::1 - - [26/Oct/2020:20:11:46 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+info: ::1 - - [26/Oct/2020:20:13:19 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 200 18 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+error: cursor is not iterable
+info: ::1 - - [26/Oct/2020:20:15:17 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+info: ::1 - - [26/Oct/2020:20:18:18 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 200 18 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+info: ::1 - - [26/Oct/2020:21:26:49 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 200 18 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: 15
+info: ::1 - - [26/Oct/2020:21:27:40 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-10&toDate=2020-10-25 HTTP/1.1" 200 12312 "-" "PostmanRuntime/7.26.5"
+
+info: 2
+info: ::1 - - [26/Oct/2020:21:34:15 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-23&toDate=2020-10-25 HTTP/1.1" 200 12312 "-" "PostmanRuntime/7.26.5"
+
+info: 0
+info: ::1 - - [26/Oct/2020:21:35:17 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-26&toDate=2020-10-26 HTTP/1.1" 200 13030 "-" "PostmanRuntime/7.26.5"
+
+info: 0
+info: ::1 - - [26/Oct/2020:21:38:10 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-26&toDate=2020-10-26&pageSize=100 HTTP/1.1" 200 13030 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: ::1 - - [27/Oct/2020:07:31:04 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-26&toDate=2020-10-26&pageSize=100 HTTP/1.1" 200 13039 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: ::1 - - [27/Oct/2020:07:37:43 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-26&toDate=2020-10-26&pageSize=100 HTTP/1.1" 200 13039 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+error: arr is not defined
+info: ::1 - - [27/Oct/2020:07:39:38 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-26&toDate=2020-10-26&pageSize=100 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+error: uncaughtException: Unexpected token ;
+/home/matant/Wintego/Projects/news-analayzer/web-client-api/utils.js:5
+  for(; dt=new Date(start); dt<=end; dt.setDate(dt.getDate()+1)){
+                                   ^
+
+SyntaxError: Unexpected token ;
+    at new Script (vm.js:80:7)
+    at createScript (vm.js:274:10)
+    at Object.runInThisContext (vm.js:326:10)
+    at Module._compile (internal/modules/cjs/loader.js:664:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18) {"error":{},"stack":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/utils.js:5\n  for(; dt=new Date(start); dt<=end; dt.setDate(dt.getDate()+1)){\n                                   ^\n\nSyntaxError: Unexpected token ;\n    at new Script (vm.js:80:7)\n    at createScript (vm.js:274:10)\n    at Object.runInThisContext (vm.js:326:10)\n    at Module._compile (internal/modules/cjs/loader.js:664:28)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)\n    at Module.load (internal/modules/cjs/loader.js:600:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:531:3)\n    at Module.require (internal/modules/cjs/loader.js:637:17)\n    at require (internal/modules/cjs/helpers.js:22:18)","exception":true,"date":"Tue Oct 27 2020 09:40:20 GMT+0200 (Israel Standard Time)","process":{"pid":568163,"uid":1000,"gid":1000,"cwd":"/home/matant/Wintego/Projects/news-analayzer/web-client-api","execPath":"/usr/local/bin/node","version":"v10.15.3","argv":["/usr/local/bin/node","/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js"],"memoryUsage":{"rss":44859392,"heapTotal":21217280,"heapUsed":11106816,"external":102139}},"os":{"loadavg":[1.25244140625,1.06005859375,0.78759765625],"uptime":151176},"trace":[{"column":7,"file":"vm.js","function":"new Script","line":80,"method":null,"native":false},{"column":10,"file":"vm.js","function":"createScript","line":274,"method":null,"native":false},{"column":10,"file":"vm.js","function":"Object.runInThisContext","line":326,"method":"runInThisContext","native":false},{"column":28,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":664,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":712,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":600,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"tryModuleLoad","line":539,"method":null,"native":false},{"column":3,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":531,"method":"_load","native":false},{"column":17,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":637,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":22,"method":null,"native":false}]}
+info: WebClient API listening
+info: MongoDB connected
+info: ::1 - - [27/Oct/2020:07:40:57 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-26&toDate=2020-10-26&pageSize=100 HTTP/1.1" 200 13039 "-" "PostmanRuntime/7.26.5"
+
+info: ::1 - - [27/Oct/2020:07:41:15 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-15&toDate=2020-10-26&pageSize=100 HTTP/1.1" 200 13039 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: ::1 - - [27/Oct/2020:07:42:29 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-15&toDate=2020-10-26&pageSize=100 HTTP/1.1" 200 13039 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: ::1 - - [27/Oct/2020:07:49:36 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-15&toDate=2020-10-26&pageSize=100 HTTP/1.1" 200 13039 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: WebClient API listening
+info: MongoDB connected
+info: ::1 - - [27/Oct/2020:07:51:47 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-15&toDate=2020-10-26&pageSize=100 HTTP/1.1" 200 13039 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: ::1 - - [27/Oct/2020:07:52:30 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-15&toDate=2020-10-26&pageSize=100 HTTP/1.1" 200 13039 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: ::1 - - [27/Oct/2020:07:53:44 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-15&toDate=2020-10-26&pageSize=100 HTTP/1.1" 200 13039 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: ::1 - - [27/Oct/2020:07:55:05 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-15&toDate=2020-10-26&pageSize=100 HTTP/1.1" 200 13039 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: ::1 - - [27/Oct/2020:07:57:07 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-15&toDate=2020-10-26&pageSize=100 HTTP/1.1" 200 13039 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: ::1 - - [27/Oct/2020:07:59:06 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-15&toDate=2020-10-26&pageSize=100 HTTP/1.1" 200 13039 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: ::1 - - [27/Oct/2020:07:59:35 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-15&toDate=2020-10-26&pageSize=100 HTTP/1.1" 200 13039 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+error: dt.setDate(...).setHours is not a function
+info: ::1 - - [27/Oct/2020:08:02:50 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-15&toDate=2020-10-26&pageSize=100 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: ::1 - - [27/Oct/2020:08:03:36 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-15&toDate=2020-10-26&pageSize=100 HTTP/1.1" 200 13039 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: WebClient API listening
+info: MongoDB connected
+info: WebClient API listening
+info: MongoDB connected
+info: ::1 - - [27/Oct/2020:08:06:31 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-15&toDate=2020-10-26&pageSize=100 HTTP/1.1" 200 13039 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+error: Invalid time value
+info: ::1 - - [27/Oct/2020:08:08:08 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-15&toDate=2020-10-26&pageSize=100 HTTP/1.1" 500 33 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: ::1 - - [27/Oct/2020:08:09:27 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-15&toDate=2020-10-26&pageSize=100 HTTP/1.1" 200 13039 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+error: uncaughtException: res.json is not a function
+TypeError: res.json is not a function
+    at /home/matant/Wintego/Projects/news-analayzer/web-client-api/news_api.js:41:15
+    at /home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/utils.js:674:5
+    at handleCallback (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/utils.js:102:55)
+    at cursor.close (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/cursor.js:838:66)
+    at /home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/utils.js:674:5
+    at _endSession (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/cursor.js:923:9)
+    at AggregationCursor._endSession (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/core/cursor.js:394:7)
+    at cb (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/cursor.js:921:12)
+    at maybePromise (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/utils.js:662:3)
+    at AggregationCursor.close (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/cursor.js:914:12) {"error":{},"stack":"TypeError: res.json is not a function\n    at /home/matant/Wintego/Projects/news-analayzer/web-client-api/news_api.js:41:15\n    at /home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/utils.js:674:5\n    at handleCallback (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/utils.js:102:55)\n    at cursor.close (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/cursor.js:838:66)\n    at /home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/utils.js:674:5\n    at _endSession (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/cursor.js:923:9)\n    at AggregationCursor._endSession (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/core/cursor.js:394:7)\n    at cb (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/cursor.js:921:12)\n    at maybePromise (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/utils.js:662:3)\n    at AggregationCursor.close (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/cursor.js:914:12)","exception":true,"date":"Tue Oct 27 2020 10:51:56 GMT+0200 (Israel Standard Time)","process":{"pid":573585,"uid":1000,"gid":1000,"cwd":"/home/matant/Wintego/Projects/news-analayzer/web-client-api","execPath":"/usr/local/bin/node","version":"v10.15.3","argv":["/usr/local/bin/node","/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js"],"memoryUsage":{"rss":66527232,"heapTotal":36958208,"heapUsed":22613288,"external":19376429}},"os":{"loadavg":[0.98681640625,0.76171875,0.56591796875],"uptime":155471},"trace":[{"column":15,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/news_api.js","function":null,"line":41,"method":null,"native":false},{"column":5,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/utils.js","function":null,"line":674,"method":null,"native":false},{"column":55,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/utils.js","function":"handleCallback","line":102,"method":null,"native":false},{"column":66,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/cursor.js","function":"cursor.close","line":838,"method":"close","native":false},{"column":5,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/utils.js","function":null,"line":674,"method":null,"native":false},{"column":9,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/cursor.js","function":"_endSession","line":923,"method":null,"native":false},{"column":7,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/core/cursor.js","function":"AggregationCursor._endSession","line":394,"method":"_endSession","native":false},{"column":12,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/cursor.js","function":"cb","line":921,"method":null,"native":false},{"column":3,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/utils.js","function":"maybePromise","line":662,"method":null,"native":false},{"column":12,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/cursor.js","function":"AggregationCursor.close","line":914,"method":"close","native":false}]}
+info: WebClient API listening
+info: MongoDB connected
+info: ::1 - - [27/Oct/2020:08:52:38 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-15&toDate=2020-10-26&pageSize=100 HTTP/1.1" 200 80421 "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: WebClient API listening
+info: MongoDB connected
+error: Request failed with status code 429 {"config":{"url":"http://newsapi.org/v2/everything?language=en&pageSize=100&sortBy=publishedAt&from=2019-10-14&to=2019-10-14&sources=bbc-news&apiKey=1a4965959ca9454e954fefade8e24002","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.21.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1}}
+info: ::1 - - [27/Oct/2020:09:01:13 +0000] "GET /api/news/load?source=bbc-news&fromDate=2019-10-15&toDate=2020-10-26&pageSize=100 HTTP/1.1" - - "-" "PostmanRuntime/7.26.5"
+
+info: WebClient API listening
+info: MongoDB connected
+info: WebClient API listening
+info: MongoDB connected
+error: Request failed with status code 426 {"config":{"url":"http://newsapi.org/v2/everything?language=en&pageSize=100&sortBy=publishedAt&from=2019-10-14&to=2019-10-14&sources=bbc-news&apiKey=dc5b3a6bfa054d20ad2cad0b07678d20","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.21.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1}}
+info: ::1 - - [27/Oct/2020:09:04:18 +0000] "GET /api/news/load?source=bbc-news&fromDate=2019-10-15&toDate=2020-10-26&pageSize=100 HTTP/1.1" - - "-" "PostmanRuntime/7.26.5"
+
+error: Request failed with status code 429 {"config":{"url":"http://newsapi.org/v2/everything?language=en&pageSize=100&sortBy=publishedAt&from=2020-03-15&to=2020-03-15&sources=bbc-news&apiKey=dc5b3a6bfa054d20ad2cad0b07678d20","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.21.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1}}
+info: ::1 - - [27/Oct/2020:09:05:02 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-03-15&toDate=2020-10-26&pageSize=100 HTTP/1.1" - - "-" "PostmanRuntime/7.26.5"
+
+error: Request failed with status code 429 {"config":{"url":"http://newsapi.org/v2/sources?language=en&apiKey=dc5b3a6bfa054d20ad2cad0b07678d20","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.21.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1}}
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:09:13:06 +0000] "GET /api/news/sources HTTP/1.1" 500 33 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+error: Request failed with status code 429 {"config":{"url":"http://newsapi.org/v2/sources?language=en&apiKey=dc5b3a6bfa054d20ad2cad0b07678d20","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.21.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1}}
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:09:26:52 +0000] "GET /api/news/sources HTTP/1.1" 500 33 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+error: Request failed with status code 429 {"config":{"url":"http://newsapi.org/v2/sources?language=en&apiKey=dc5b3a6bfa054d20ad2cad0b07678d20","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.21.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1}}
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:09:27:14 +0000] "GET /api/news/sources HTTP/1.1" 500 33 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+error: Request failed with status code 429 {"config":{"url":"http://newsapi.org/v2/sources?language=en&apiKey=dc5b3a6bfa054d20ad2cad0b07678d20","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.21.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1}}
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:09:27:31 +0000] "GET /api/news/sources HTTP/1.1" 500 33 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+error: Request failed with status code 429 {"config":{"url":"http://newsapi.org/v2/sources?language=en&apiKey=dc5b3a6bfa054d20ad2cad0b07678d20","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.21.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1}}
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:09:27:47 +0000] "GET /api/news/sources HTTP/1.1" 500 33 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+error: Request failed with status code 429 {"config":{"url":"http://newsapi.org/v2/sources?language=en&apiKey=dc5b3a6bfa054d20ad2cad0b07678d20","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.21.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1}}
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:09:31:00 +0000] "GET /api/news/sources HTTP/1.1" 500 33 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: WebClient API listening
+info: MongoDB connected
+info: undefined
+info: undefined
+info: undefined
+error: Invalid time value
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:09:46:34 +0000] "GET /api/news/load?source=bbc-news&fromDate=1603791059662&toDate=1603791059662 HTTP/1.1" 500 33 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: WebClient API listening
+info: MongoDB connected
+info: bbc-news
+info: 1603791059662
+info: 1603791059662
+error: Invalid time value
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:09:47:42 +0000] "GET /api/news/load?source=bbc-news&fromDate=1603791059662&toDate=1603791059662 HTTP/1.1" 500 33 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: WebClient API listening
+info: MongoDB connected
+info: bbc-news
+info: Invalid Date
+info: 1603791059662
+error: Invalid time value
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:09:48:07 +0000] "GET /api/news/load?source=bbc-news&fromDate=1603791059662&toDate=1603791059662 HTTP/1.1" 500 33 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: bbc-news
+info: Invalid Date
+info: 1603791059662
+error: Invalid time value
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:09:48:43 +0000] "GET /api/news/load?source=bbc-news&fromDate=1603791059662&toDate=1603791059662 HTTP/1.1" 500 33 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: bbc-news
+info: Tue Oct 27 2020 11:49:37 GMT+0200 (Israel Standard Time)
+info: 1603792177365
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:09:49:38 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T09:49:37.365Z&toDate=1603792177365 HTTP/1.1" 200 24 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+error: Request failed with status code 429 {"config":{"url":"http://newsapi.org/v2/sources?language=en&apiKey=dc5b3a6bfa054d20ad2cad0b07678d20","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.21.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1}}
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:09:49:42 +0000] "GET /api/news/sources HTTP/1.1" 500 33 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: bbc-news
+info: Tue Oct 27 2020 11:50:08 GMT+0200 (Israel Standard Time)
+info: 2020-10-27T09:50:08.355Z
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:09:50:08 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T09:50:08.355Z&toDate=2020-10-27T09:50:08.355Z HTTP/1.1" 200 24 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+error: Request failed with status code 429 {"config":{"url":"http://newsapi.org/v2/sources?language=en&apiKey=dc5b3a6bfa054d20ad2cad0b07678d20","method":"get","headers":{"Accept":"application/json, text/plain, */*","User-Agent":"axios/0.21.0"},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1}}
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:09:50:14 +0000] "GET /api/news/sources HTTP/1.1" 500 33 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: WebClient API listening
+info: MongoDB connected
+info: bbc-news
+info: Tue Oct 27 2020 11:50:08 GMT+0200 (Israel Standard Time)
+info: Tue Oct 27 2020 11:50:08 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:09:50:36 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T09:50:08.355Z&toDate=2020-10-27T09:50:08.355Z HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: WebClient API listening
+info: MongoDB connected
+info: bbc-news
+info: Tue Oct 27 2020 11:50:08 GMT+0200 (Israel Standard Time)
+info: Tue Oct 27 2020 11:50:08 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:09:53:37 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T09:50:08.355Z&toDate=2020-10-27T09:50:08.355Z HTTP/1.1" 200 44 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: bbc-news
+info: Thu Oct 08 2020 11:50:00 GMT+0300 (Israel Daylight Time)
+info: Sat Oct 31 2020 11:50:00 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:09:53:57 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-08T08:50:00.000Z&toDate=2020-10-31T09:50:00.000Z HTTP/1.1" 200 830 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: bbc-news
+info: Thu Oct 08 2015 11:50:00 GMT+0300 (Israel Daylight Time)
+info: Sat Oct 31 2020 11:50:00 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:09:54:28 +0000] "GET /api/news/load?source=bbc-news&fromDate=2015-10-08T08:50:00.000Z&toDate=2020-10-31T09:50:00.000Z HTTP/1.1" 200 60786 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: bbc-news
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:12:09:39 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T12:09:36.561Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 44 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:12:09:42 +0000] "GET /api/news/sources HTTP/1.1" 200 3566 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: bbc-news
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:12:10:06 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T12:09:36.561Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 44 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: bbc-news
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:12:12:54 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T12:09:36.561Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 44 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: bbc-news
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:12:12:58 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T12:09:36.561Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 44 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: WebClient API listening
+info: MongoDB connected
+info: WebClient API listening
+info: MongoDB connected
+info: bbc-news
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:12:13:29 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T12:09:36.561Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 43 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:470:11)
+    at ServerResponse.header (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/express/lib/response.js:267:15)
+    at /home/matant/Wintego/Projects/news-analayzer/web-client-api/news_api.js:49:15
+    at /home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/utils.js:674:5
+    at handleCallback (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/utils.js:102:55)
+    at cursor.close (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/cursor.js:838:66)
+    at /home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/utils.js:674:5
+    at _endSession (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/cursor.js:923:9) {"error":{},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (_http_outgoing.js:470:11)\n    at ServerResponse.header (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/express/lib/response.js:771:10)\n    at ServerResponse.send (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/express/lib/response.js:170:12)\n    at ServerResponse.json (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/express/lib/response.js:267:15)\n    at /home/matant/Wintego/Projects/news-analayzer/web-client-api/news_api.js:49:15\n    at /home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/utils.js:674:5\n    at handleCallback (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/utils.js:102:55)\n    at cursor.close (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/cursor.js:838:66)\n    at /home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/utils.js:674:5\n    at _endSession (/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/cursor.js:923:9)","exception":true,"date":"Tue Oct 27 2020 14:13:34 GMT+0200 (Israel Standard Time)","process":{"pid":589371,"uid":1000,"gid":1000,"cwd":"/home/matant/Wintego/Projects/news-analayzer/web-client-api","execPath":"/usr/local/bin/node","version":"v10.15.3","argv":["/usr/local/bin/node","/home/matant/Wintego/Projects/news-analayzer/web-client-api/web-client-api.js"],"memoryUsage":{"rss":59289600,"heapTotal":37470208,"heapUsed":20421208,"external":18743713}},"os":{"loadavg":[2.52099609375,2.07470703125,1.40966796875],"uptime":167570},"trace":[{"column":11,"file":"_http_outgoing.js","function":"ServerResponse.setHeader","line":470,"method":"setHeader","native":false},{"column":10,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/express/lib/response.js","function":"ServerResponse.header","line":771,"method":"header","native":false},{"column":12,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/express/lib/response.js","function":"ServerResponse.send","line":170,"method":"send","native":false},{"column":15,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/express/lib/response.js","function":"ServerResponse.json","line":267,"method":"json","native":false},{"column":15,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/news_api.js","function":null,"line":49,"method":null,"native":false},{"column":5,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/utils.js","function":null,"line":674,"method":null,"native":false},{"column":55,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/utils.js","function":"handleCallback","line":102,"method":null,"native":false},{"column":66,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/cursor.js","function":"cursor.close","line":838,"method":"close","native":false},{"column":5,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/utils.js","function":null,"line":674,"method":null,"native":false},{"column":9,"file":"/home/matant/Wintego/Projects/news-analayzer/web-client-api/node_modules/mongodb/lib/cursor.js","function":"_endSession","line":923,"method":null,"native":false}]}
+info: WebClient API listening
+info: MongoDB connected
+info: bbc-news
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:12:13:52 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T12:09:36.561Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 12613 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: bbc-news
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:12:13:58 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T12:09:36.561Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 12576 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: bbc-news
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:12:14:13 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T12:09:36.561Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 12576 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: bbc-news
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:12:14:17 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T12:09:36.561Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 12576 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: WebClient API listening
+info: MongoDB connected
+info: bbc-news
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+error: db is not defined
+info: WebClient API listening
+info: MongoDB connected
+info: bbc-news
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:12:24:29 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T12:09:36.561Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 12743 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: WebClient API listening
+info: MongoDB connected
+info: bbc-news
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: [object Object]
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:12:25:17 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T12:09:36.561Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 12743 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: WebClient API listening
+info: MongoDB connected
+info: bbc-news
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: [{"call":1,"holds":1,"walk":1,"coney":2,"surgeons":1,"msps":1,"history":2,"talk":1,"berry":1,"clowning":1,"four":2,"big":2,"concerns":2,"doomscrolling":1,"turin":1,"researchers":1,"questions":1,"little":1,"brain":2,"storeys":1,"cancel":1,"jobs":3,"sterling":1,"thoughts":1,"when":3,"instead":1,"dead":1,"having":2,"outrage":1,"the":113,"belarus":2,"life'":1,"banned":1,"costs":1,"being":2,"driven":1,"place":1,"mayor":4,"close":1,"demand":1,"'moneyball":1,"teviot":2,"this":7,"curriculum":1,"impact":1,"safe":1,"superstar":1,"tanzania":1,"potter":1,"london's":2,"spoke":1,"space":2,"finn":1,"things":2,"them":6,"bolivian":1,"only":2,"march":1,"illness":1,"engineering":1,"middle":1,"force":3,"his":8,"kazakhstan":1,"team":1,"were":3,"two":4,"arrest":2,"main":1,"walk'":1,"media":5,"city":1,"gmt":12,"dies":3,"schools":1,"china":3,"sacred":1,"they":3,"hastings":1,"targets":1,"sibling'":1,"football":1,"years'":1,"patients":1,"calls":1,"complete":1,"hollywood":1,"river":4,"rates":2,"thought":1,"rangers":1,"kariuki":1,"liverpool":5,"picture":1,"importance":1,"scrubbing":1,"story":1,"overhaul":1,"boss":1,"tfl's":1,"because":2,"slam":1,"may":1,"former":4,"survey":2,"aisha":2,"condemn":1,"problems":1,"almost":1,"old":3,"secured":1,"phones":1,"danish":1,"what's":1,"mural":2,"not":2,"conservational":1,"striker":2,"dolphins":1,"pakistan":1,"'on":1,"wurrung":1,"have":5,"airport":1,"utd":2,"psg's":1,"online":1,"part":1,"letter":1,"top":1,"railway":1,"sided":1,"andre":2,"applies":1,"london":4,"became":1,"window":1,"terms":1,"made":2,"popular":1,"'we":1,"dam":2,"face":2,"trio":1,"annulled":1,"children's":1,"stik":1,"under":1,"raises":1,"supporting":3,"isolating":1,"presidency":1,"earlier":2,"demonstrators":1,"wales":3,"townsend":1,"next":2,"monday":1,"went":1,"ofcom":1,"warning":2,"ireland":1,"cruel":1,"peshawar":1,"particular":1,"dolphin":1,"warrington":1,"reach":1,"conservative":1,"one":6,"leader":1,"healthcare":1,"sunday's":1,"spreading":1,"reported":2,"can":5,"living":2,"manchester":1,"phrase":1,"pittance":1,"polling":1,"dundee":3,"three":1,"sharif's":1,"prepared":1,"italy":2,"publisher":1,"'arrested":1,"elbow":1,"teachers":1,"inspired":1,"performing":1,"sports":1,"president":2,"again":1,"rescuers":2,"sacha":1,"'urgent":1,"respect":1,"posted":1,"environment":1,"paris":1,"rapidly":1,"turning":1,"bandmate":1,"paternity":1,"decision":1,"moon":1,"cheshire":1,"breastfed":2,"excellent":1,"christmas":3,"looking":1,"celebrate":1,"princess":1,"bbc":15,"music":1,"years":4,"win":2,"hold":1,"taken":1,"whitest":1,"adam":1,"long":1,"nations":2,"created":2,"romania":1,"survival":1,"been":5,"'causing":1,"workforce":2,"pro":1,"chiefs":1,"networks":1,"year":6,"flu":1,"flagged":1,"advertising":1,"scores":1,"residents":1,"wants":1,"rules":4,"sole":1,"garden":1,"known":1,"champions":1,"zanzibar":1,"voiced":1,"way'":1,"displays":2,"past":1,"bulletin":12,"dancing":1,"france":1,"know":1,"work":2,"daily":1,"satire":1,"hackney":2,"traveller":1,"davies":1,"five":17,"'if":1,"indonesia's":1,"would":3,"tuesday":1,"wear":2,"beyond":1,"shiels":1,"roadies":1,"defence":1,"viral":2,"hundreds":1,"swimming":1,"where":2,"figures":1,"judge":4,"ghost":1,"fc'":1,"reading'":1,"grime":1,"women's":3,"very":1,"nine":1,"inoperable":1,"warns":1,"ethiopia":1,"supermarket":2,"restaurants":1,"euro":1,"meant":2,"members":1,"mean":1,"bad":1,"animal":2,"must":1,"survival’":1,"all":2,"crimes":1,"waves":1,"poll":1,"leaders":1,"jim":1,"anger":1,"deal":1,"trebling":1,"mitchell":1,"intimidated":1,"first":2,"native":1,"paul":1,"months":1,"machine":1,"firework":1,"her":4,"china's":2,"abroad":1,"christmas'":1,"oven":1,"sebastian":1,"lawrence":1,"political":1,"'rediscovering":1,"nadhim":2,"'suspended'":1,"shop":2,"woman":1,"apologises":1,"more":6,"started":1,"belgium's":1,"england's":2,"powerhouse":2,"talks":1,"needed":1,"raised":1,"occupant":1,"campaign":1,"contempt'":1,"zahawi":2,"grand":2,"toughest":1,"midtjylland":2,"most":2,"superpowers":1,"challenging":1,"level":1,"'needed'":1,"playing":1,"ethics":1,"family":2,"detained":1,"dominance":1,"qualifier":1,"testing":1,"djab":1,"struggling":1,"confirms":1,"social":5,"lord":1,"infection'":1,"india's":1,"faith":2,"canadian":1,"inexcusably":1,"are":15,"celebrating":1,"duped":1,"antibodies":2,"poster":2,"'ghost":1,"school":1,"renowned":1,"suicidal":1,"wanting":1,"families":1,"find":1,"news":14,"seif":1,"high":1,"applicants":1,"firebreak":1,"october":2,"mid":1,"odds":1,"last":1,"nigeria":1,"bridge":2,"that":2,"record":1,"lockdowns":2,"richard":1,"india":2,"perfect":1,"restructure":1,"parents":1,"hope":1,"job":1,"amid":4,"baron":1,"left":1,"save":3,"halt":1,"sarah":1,"tests":1,"bank":3,"towns'":1,"brown":2,"letters":1,"'betrayed'":1,"locked":1,"europe":1,"cyclist":2,"tree":3,"decline":1,"chemistry'":1,"republicans":1,"understatement":1,"after":17,"tourism":3,"transport":1,"life":1,"meet":1,"hardest":1,"ties":1,"birth":1,"own":2,"bigger":1,"ruled":1,"fewer":1,"hunter":2,"safety":1,"word":1,"helped":2,"tory":1,"post":1,"many":2,"north":2,"into":7,"self":1,"prints":1,"eldest":1,"reveals":1,"investment":2,"mobile":1,"image":2,"coping":1,"excited":1,"lockdown":7,"camp":1,"trump":3,"technology":1,"but":7,"creative":1,"before":1,"titles":1,"developed":1,"some":2,"pandemic":3,"highway":1,"passed":1,"dad":1,"coronavirus's":1,"breakfast's":1,"police":5,"clashed":2,"labour's":1,"australians":1,"west":2,"belle":1,"‘it’s":1,"found":1,"set":2,"crisis'":1,"want":1,"inquiry":2,"anti":2,"sir":1,"nile":1,"oil":1,"sister":2,"racial":1,"countering":1,"fundraiser":1,"starmer":1,"'i'll":1,"escape":1,"areas":2,"faces":1,"spread":1,"investigates":1,"seven":1,"restrictions":6,"cost":1,"prepare":1,"moderator":1,"pre":1,"camps":1,"why":3,"anderson's":1,"tottenham":1,"encourage":1,"reinfection":1,"row":1,"died":1,"belt'":1,"voices":1,"young":2,"slash":1,"stolen":1,"said":3,"seek":1,"greater":1,"antrim":1,"while":1,"follow":1,"foxx's":1,"sam":1,"cruz":1,"least":1,"xuesen":2,"aged":1,"bulldozed":1,"service":12,"pensioner's":1,"initially":1,"celtic's":1,"keir":1,"properly":1,"minchin":1,"sudden":1,"film":2,"tiktok":1,"wings":1,"watford":2,"get":3,"trust":1,"morales's":1,"based":1,"addiction":1,"reportedly":1,"fear":2,"coronavirus":5,"support":1,"also":3,"cannot":1,"game":2,"november":1,"waiting":1,"keep":1,"generational":2,"pioneers":1,"road":5,"tumour":2,"terrorism":1,"crucial":2,"counties":1,"doreen":1,"twitter":1,"board":1,"will":4,"class":1,"shed":1,"'you":1,"accelerate":1,"islamists":1,"stop":1,"'end":1,"customers":2,"now":5,"depressing":1,"about":8,"quashed":1,"still":1,"improved":1,"money":1,"levels":1,"deep":1,"racism":4,"pages":1,"widely":1,"minorities":1,"hogg":1,"leicester":1,"their":5,"taio":1,"wanted's":1,"apology":1,"ratcliffe":1,"viaduct":1,"tiered":1,"barrett":2,"presidential":1,"during":2,"paid":1,"naples":1,"'heart":1,"qian":3,"canada":1,"attack":2,"wallace":1,"drilling":1,"battle":2,"sedition":1,"album":1,"sites":1,"could":5,"fireworks":1,"land":2,"stuart":1,"boys":1,"glasgow":2,"remembered":1,"construction":1,"circus":2,"joni":1,"changed":3,"universities":1,"there":1,"follows":1,"offshore":1,"move":2,"delphine":1,"gregor":1,"firms":1,"hiring":1,"hamstring":1,"amy":2,"prefer":1,"biased":2,"dozens":1,"began":1,"come":1,"lines":1,"influence":1,"react":1,"'in":1,"discuss":2,"pleasure":1,"andy":1,"hell":1,"dirt":1,"macron's":1,"sexual":1,"exposed":2,"returns":2,"lose":1,"back":2,"let":1,"recent":1,"field":1,"harry":1,"transparency":1,"united":2,"others":1,"than":5,"crash":1,"man":5,"important":1,"aberdeen":1,"youth":1,"alleged":1,"students":2,"arches":1,"'ambushed'":1,"syria":2,"hsbc":1,"using":1,"loss":2,"heaven":1,"rise":2,"white":1,"giant":1,"treated":1,"i'm":1,"healthy":1,"exiled":1,"deputy":1,"stars":1,"daunted":1,"side":2,"fatal":1,"pilot":1,"change":1,"milan":1,"yeon":1,"kick":1,"mps":1,"economist":1,"staff":3,"profit":1,"distributed":1,"hospital":3,"indonesia":1,"infections":1,"joe":3,"supreme":2,"rule":1,"tier":3,"activist":1,"shattered'":1,"successive":2,"fight":1,"month":1,"scotland's":1,"shower":1,"furlough":2,"cornwall":1,"local":1,"ethnic":1,"overnight":1,"clarity'":1,"denials":1,"across":2,"'we're":1,"child":6,"nigerians'":1,"borough":1,"scheme":1,"disrupted":1,"shows":1,"causes":1,"receiving":1,"station":1,"arab":1,"hangs":1,"exeter":1,"outcomes":1,"whale":1,"take":3,"borat":2,"virus":3,"become":1,"mental":3,"around":1,"stronger":1,"happening":1,"lathums":2,"which":4,"germain":1,"thrived":1,"government":1,"'struggling":1,"unsafe":1,"selling":1,"hit":1,"leader's":1,"signed":1,"footbridge":1,"phone":1,"plastic":1,"strategy'":1,"chat":1,"since":1,"shortly":1,"ill":1,"huitema":2,"brother":1,"gray":3,"hate":2,"moved":1,"scott":2,"you":1,"lifted":1,"begin":1,"households":1,"daughter":2,"protests":2,"don't":4,"launched":1,"fell":1,"believe":1,"brother's":2,"haldane":1,"caused":1,"courts":1,"destruction":1,"radical":1,"jake":1,"deported":1,"naked":1,"fears":1,"review":1,"despite":3,"new":4,"worse":1,"involved":2,"minute":12,"agboola":2,"senate":1,"crackdown":1,"feel":2,"career'":1,"scientist":2,"experiences":1,"was":11,"defender":3,"due":1,"incident":1,"adopts":1,"makes":1,"minister":4,"severe":1,"tool":1,"analysts":1,"aimed":1,"scots":1,"bands":1,"proclaimers":1,"captain":2,"says":17,"doctors":2,"covid":25,"'humiliated'":1,"time":4,"generation":1,"england":5,"worn":1,"confirmed":1,"refugee":2,"likely":1,"mega":1,"out":6,"saw":1,"practices":1,"surge":2,"and":33,"abuse":2,"break":2,"switch":1,"erupt":1,"transforming":1,"'most":1,"nearly":1,"star":4,"public":1,"neither":1,"islam":1,"ends":1,"third":1,"inadequately":1,"east":4,"jamie":1,"structure":1,"moves":1,"herself":1,"learn":3,"watchdog":1,"different":1,"create":1,"victoria":1,"suggests":2,"egypt":1,"park'":1,"standards":1,"discrimination":1,"twice":1,"plan":2,"she":3,"customer":1,"tributary":1,"council":1,"artist":2,"wait":2,"black":5,"celebrated":1,"dramatically":1,"say":7,"far":1,"such":1,"jonny":1,"officials":1,"exploitative":1,"best":1,"king":2,"from":18,"steps":1,"escalating":1,"think":1,"albert":1,"'fall":1,"debate":2,"for":21,"becomes":1,"jab":1,"kenny":1,"tested":1,"experts":1,"facebook":1,"unit":1,"town":1,"business":3,"trying":1,"alphonso":1,"injuries":1,"dispute":1,"kim":1,"data":2,"should":4,"crew":1,"behind":1,"transphobic":1,"against":4,"diving":1,"sport":1,"yesufu":2,"maalim":1,"yet":1,"point":1,"aboriginal":2,"lanarkshire":2,"world":12,"rampant":1,"exploration":1,"parker":2,"need":2,"immunity":1,"falling":2,"'burned":1,"industry":1,"'transphobic":1,"diy":1,"affair":1,"tale":1,"off":1,"louise":1,"covid'":1,"over":15,"'exit":1,"home":8,"spean":2,"africa":2,"injured":2,"part…":1,"scottish":1,"alert":1,"records'":1,"frustration'":1,"with":12,"masks'":1,"blamed":1,"out'":1,"morning":1,"cohen's":1,"has":15,"plymouth":1,"election":3,"village":2,"front":1,"future":1,"meeting":1,"honours":1,"masks":2,"injury":1,"sees":1,"russia":1,"prime":1,"select":1,"deondra":1,"evo":1,"diagnosis":1,"lorry":1,"wilshire":1,"six":3,"'roadmap'":1,"ago":1,"culture":1,"beached":1,"tom":1,"candidate":2,"officer":1,"'face":1,"idlewild":1,"aneurysm":1,"area":4,"risk":2,"donald":1,"worker":2,"collision":2,"bloomsbury":1,"disabled":2,"cures":1,"sold":2,"party":1,"derbyshire":1,"tour":1,"bars":1,"approach":1,"trading":1,"weighs":1,"investigating":1,"halting":1,"inventor":1,"differences":2,"wales's":1,"hopley":1,"president's":1,"less":1,"near":3,"trophy":1,"experienced":1,"who":10,"hole":1,"church":2,"citing":1,"kyeong":1,"clyde":2,"positive":2,"'saviour":1,"upbringing":1,"jack":1,"presenter":1,"both":1,"sparks":1,"measures":1,"appointment":1,"court":4,"weller":1,"programme":1,"bed":1,"bid":1,"signs":2,"player":1,"told":1,"turkey":1,"russell":1,"celtic":1,"gedling":1,"avoid":1,"towns":3,"cleaned":1,"poor":1,"tells":2,"works":1,"michael":2,"projects":1,"plans":1,"women":2,"second":3,"really":1,"skinner":1,"baroness":2,"what":2,"speculation":1,"warrant":2,"great":1,"effort":1,"teaching":1,"following":1,"whilst":1,"americans":1,"flowers":1,"racist":1,"wolves":2,"slams":1,"right":1,"urge":1,"way":2,"sars":2,"northern":8,"reduces":1,"show":1,"gossip":1,"system":2,"janner":1,"country’s":1,"'show":1,"nhs":2,"idlib":1,"additional":1,"how":7,"highest":1,"bullies":1,"week":1,"scotland":5,"marketing":1,"places":1,"workers":1,"implore":1,"they're":1,"rocket":3,"trials":1,"vote'":1,"upset":1,"cleaner":1,"commented":1,"anderson":2,"inside":1,"gift":1,"chinese":1,"photo":1,"region":1,"each":1,"papers":1,"brentford":1,"destroying":1,"jordyn":1,"rapid":1,"annuls":1,"health":4,"finances":2,"came":1,"meets":1,"care":1,"among":1,"father":2,"finds":1,"fined":1,"car":1,"inspirational":1,"working":2,"latest":13,"covers":1,"death":3,"biden":2,"people":6,"'jurassic":1,"beach":1,"its":2,"authority":1,"led":1,"had":5}]
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:12:25:40 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T12:09:36.561Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 12743 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: WebClient API listening
+info: MongoDB connected
+info: bbc-news
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:12:35:00 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T12:09:36.561Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 32160 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: al-jazeera-english
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:12:39:08 +0000] "GET /api/news/load?source=al-jazeera-english&fromDate=2020-10-27T12:09:36.561Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 13623 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: financial-post
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:12:39:38 +0000] "GET /api/news/load?source=financial-post&fromDate=2020-10-27T12:09:36.561Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 2726 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: financial-post
+info: Tue Oct 20 2020 14:09:00 GMT+0300 (Israel Daylight Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: WebClient API listening
+info: MongoDB connected
+info: financial-post
+info: Tue Oct 20 2020 14:09:00 GMT+0300 (Israel Daylight Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+error: Invalid Operation, no operations specified {"driver":true,"name":"MongoError"}
+info: WebClient API listening
+info: MongoDB connected
+info: financial-post
+info: Tue Oct 20 2020 14:09:00 GMT+0300 (Israel Daylight Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+info: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+info: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+info: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+info: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+info: 
+info: [object Object],[object Object],[object Object],[object Object]
+info: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+info: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+error: Invalid Operation, no operations specified {"driver":true,"name":"MongoError"}
+info: WebClient API listening
+info: MongoDB connected
+info: financial-post
+info: Tue Oct 20 2020 14:09:00 GMT+0300 (Israel Daylight Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+error: util is not defined
+info: WebClient API listening
+info: MongoDB connected
+info: financial-post
+info: Tue Oct 20 2020 14:09:00 GMT+0300 (Israel Daylight Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+error: Invalid Operation, no operations specified {"driver":true,"name":"MongoError"}
+info: financial-post
+info: Tue Oct 20 2020 14:09:00 GMT+0300 (Israel Daylight Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:12:48:19 +0000] "GET /api/news/load?source=financial-post&fromDate=2020-10-20T11:09:00.000Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+error: Invalid Operation, no operations specified {"driver":true,"name":"MongoError"}
+info: WebClient API listening
+info: MongoDB connected
+info: financial-post
+info: Tue Oct 20 2020 14:09:00 GMT+0300 (Israel Daylight Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: WebClient API listening
+info: MongoDB connected
+info: financial-post
+info: Tue Oct 20 2020 14:09:00 GMT+0300 (Israel Daylight Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:12:49:50 +0000] "GET /api/news/load?source=financial-post&fromDate=2020-10-20T11:09:00.000Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 28486 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: WebClient API listening
+info: MongoDB connected
+info: financial-post
+info: Tue Oct 20 2020 14:09:00 GMT+0300 (Israel Daylight Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: WebClient API listening
+info: MongoDB connected
+info: financial-post
+info: Tue Oct 20 2020 14:09:00 GMT+0300 (Israel Daylight Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:12:52:52 +0000] "GET /api/news/load?source=financial-post&fromDate=2020-10-20T11:09:00.000Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 28195 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: WebClient API listening
+info: MongoDB connected
+info: financial-post
+info: Tue Oct 20 2020 14:09:00 GMT+0300 (Israel Daylight Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:12:59:13 +0000] "GET /api/news/load?source=financial-post&fromDate=2020-10-20T11:09:00.000Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 28153 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: financial-post
+info: Tue Oct 20 2020 14:09:00 GMT+0300 (Israel Daylight Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:13:00:13 +0000] "GET /api/news/load?source=financial-post&fromDate=2020-10-20T11:09:00.000Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 28153 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+info: financial-post
+info: Tue Oct 20 2020 14:09:00 GMT+0300 (Israel Daylight Time)
+info: Tue Oct 27 2020 14:09:36 GMT+0200 (Israel Standard Time)
+info: ::ffff:127.0.0.1 - - [27/Oct/2020:13:01:36 +0000] "GET /api/news/load?source=financial-post&fromDate=2020-10-20T11:09:00.000Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 28153 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+undefined [32minfo[39m: WebClient API listening
+undefined [32minfo[39m: MongoDB connected
+2020-10-27T13:06:18.617Z [32minfo[39m: WebClient API listening
+2020-10-27T13:06:18.627Z [32minfo[39m: MongoDB connected
+2020-10-27T13:06:52.184Z [32minfo[39m: WebClient API listening
+2020-10-27T13:06:52.194Z [32minfo[39m: MongoDB connected
+2020-10-27T13:07:43.888Z [32minfo[39m: WebClient API listening
+2020-10-27T13:07:43.897Z [32minfo[39m: MongoDB connected
+2020-10-27T13:07:45.522Z [32minfo[39m: Fetching source %s news
+2020-10-27T13:07:51.600Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:07:51 +0000] "GET /api/news/load?source=financial-post&fromDate=2020-10-20T11:09:00.000Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 28195 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:08:11.785Z [32minfo[39m: WebClient API listening
+2020-10-27T13:08:11.794Z [32minfo[39m: MongoDB connected
+2020-10-27T13:08:13.006Z [32minfo[39m: Fetching source financial-post news
+2020-10-27T13:08:19.228Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:08:19 +0000] "GET /api/news/load?source=financial-post&fromDate=2020-10-20T11:09:00.000Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 28153 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:09:49.582Z [32minfo[39m: WebClient API listening
+2020-10-27T13:09:49.593Z [32minfo[39m: MongoDB connected
+2020-10-27T13:09:50.904Z [32minfo[39m: Fetching source financial-post news
+2020-10-27T13:09:56.823Z [32minfo[39m: Handling total 5
+2020-10-27T13:09:56.868Z [32minfo[39m: Handling total 4
+2020-10-27T13:09:56.878Z [32minfo[39m: Handling total 6
+2020-10-27T13:09:56.886Z [32minfo[39m: Handling total 9
+2020-10-27T13:09:56.900Z [32minfo[39m: Handling total 11
+2020-10-27T13:09:56.910Z [32minfo[39m: Handling total 0
+2020-10-27T13:09:56.911Z [32minfo[39m: Handling total 2
+2020-10-27T13:09:56.913Z [32minfo[39m: Handling total 8
+2020-10-27T13:09:56.917Z [32minfo[39m: Handling total 3
+2020-10-27T13:09:56.951Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:09:56 +0000] "GET /api/news/load?source=financial-post&fromDate=2020-10-20T11:09:00.000Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 28153 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:10:32.983Z [32minfo[39m: WebClient API listening
+2020-10-27T13:10:32.993Z [32minfo[39m: MongoDB connected
+2020-10-27T13:10:33.975Z [32minfo[39m: Fetching source financial-post news
+2020-10-27T13:10:39.815Z [32minfo[39m: [object Object]
+2020-10-27T13:10:39.816Z [32minfo[39m: Handling total 5
+2020-10-27T13:10:39.856Z [32minfo[39m: [object Object]
+2020-10-27T13:10:39.856Z [32minfo[39m: Handling total 4
+2020-10-27T13:10:39.865Z [32minfo[39m: [object Object]
+2020-10-27T13:10:39.866Z [32minfo[39m: Handling total 6
+2020-10-27T13:10:39.872Z [32minfo[39m: [object Object]
+2020-10-27T13:10:39.872Z [32minfo[39m: Handling total 9
+2020-10-27T13:10:39.886Z [32minfo[39m: [object Object]
+2020-10-27T13:10:39.886Z [32minfo[39m: Handling total 11
+2020-10-27T13:10:39.897Z [32minfo[39m: [object Object]
+2020-10-27T13:10:39.897Z [32minfo[39m: Handling total 0
+2020-10-27T13:10:39.898Z [32minfo[39m: [object Object]
+2020-10-27T13:10:39.898Z [32minfo[39m: Handling total 2
+2020-10-27T13:10:39.900Z [32minfo[39m: [object Object]
+2020-10-27T13:10:39.900Z [32minfo[39m: Handling total 8
+2020-10-27T13:10:39.905Z [32minfo[39m: [object Object]
+2020-10-27T13:10:39.905Z [32minfo[39m: Handling total 3
+2020-10-27T13:10:39.946Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:10:39 +0000] "GET /api/news/load?source=financial-post&fromDate=2020-10-20T11:09:00.000Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 28153 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:11:21.876Z [32minfo[39m: WebClient API listening
+2020-10-27T13:11:21.886Z [32minfo[39m: MongoDB connected
+2020-10-27T13:11:26.771Z [32minfo[39m: Fetching source financial-post news
+2020-10-27T13:11:32.637Z [32minfo[39m: Handling total 5
+2020-10-27T13:11:32.686Z [32minfo[39m: Handling total 4
+2020-10-27T13:11:32.692Z [32minfo[39m: Handling total 6
+2020-10-27T13:11:32.705Z [32minfo[39m: Handling total 9
+2020-10-27T13:11:32.730Z [32minfo[39m: Handling total 11
+2020-10-27T13:11:32.735Z [32minfo[39m: Handling total 0
+2020-10-27T13:11:32.741Z [32minfo[39m: Handling total 2
+2020-10-27T13:11:32.768Z [32minfo[39m: Handling total 8
+2020-10-27T13:11:32.775Z [32minfo[39m: Handling total 3
+2020-10-27T13:11:32.822Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:11:32 +0000] "GET /api/news/load?source=financial-post&fromDate=2020-10-20T11:09:00.000Z&toDate=2020-10-27T12:09:36.561Z HTTP/1.1" 200 28153 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:18:11.803Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:18:11 +0000] "GET /babel/parser/lib/index.js HTTP/1.1" 404 164 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:18:11.966Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:18:11 +0000] "GET /babel/parser/lib/index.js HTTP/1.1" 404 164 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:18:18.850Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:18:18 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:18:25.103Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:18:25 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:18:38.314Z [32minfo[39m: Fetching source wired news
+2020-10-27T13:18:38.730Z [32minfo[39m: Handling total 7
+2020-10-27T13:18:38.776Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:18:38 +0000] "GET /api/news/load?source=wired&fromDate=2020-10-27T13:18:13.396Z&toDate=2020-10-27T13:18:13.396Z HTTP/1.1" 200 4146 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:30:27.207Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:30:27 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:30:53.247Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:30:53 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:31:14.491Z [32minfo[39m: WebClient API listening
+2020-10-27T13:31:14.500Z [32minfo[39m: MongoDB connected
+2020-10-27T13:37:39.081Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:37:39 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:38:40.861Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:38:40 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:39:23.672Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:39:23 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:39:24.074Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:39:24 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:39:24.271Z [32minfo[39m: Fetching source bbc-news news
+2020-10-27T13:39:29.786Z [32minfo[39m: Handling total 111
+2020-10-27T13:39:29.870Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:39:29 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T13:39:22.946Z&toDate=2020-10-27T13:39:22.946Z HTTP/1.1" 200 33545 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:39:56.282Z [32minfo[39m: Fetching source bbc-news news
+2020-10-27T13:39:56.719Z [32minfo[39m: Handling total 111
+2020-10-27T13:39:56.748Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:39:56 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T13:39:22.946Z&toDate=2020-10-27T13:39:22.946Z HTTP/1.1" 200 33545 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:41:30.196Z [32minfo[39m: Fetching source bbc-news news
+2020-10-27T13:41:30.783Z [32minfo[39m: Handling total 111
+2020-10-27T13:41:30.895Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:41:30 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T13:39:22.946Z&toDate=2020-10-27T13:39:22.946Z HTTP/1.1" 200 33545 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:43:02.135Z [32minfo[39m: Fetching source bbc-news news
+2020-10-27T13:43:02.640Z [32minfo[39m: Handling total 111
+2020-10-27T13:43:02.717Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:43:02 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T13:39:22.946Z&toDate=2020-10-27T13:39:22.946Z HTTP/1.1" 200 33545 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:44:45.620Z [32minfo[39m: Fetching source bbc-news news
+2020-10-27T13:44:46.188Z [32minfo[39m: Handling total 114
+2020-10-27T13:44:46.274Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:44:46 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T13:39:22.946Z&toDate=2020-10-27T13:39:22.946Z HTTP/1.1" 200 33659 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:45:00.903Z [32minfo[39m: Fetching source bbc-news news
+2020-10-27T13:45:01.357Z [32minfo[39m: Handling total 114
+2020-10-27T13:45:01.390Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:45:01 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T13:39:22.946Z&toDate=2020-10-27T13:39:22.946Z HTTP/1.1" 200 33659 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T13:45:04.002Z [32minfo[39m: Fetching source bbc-news news
+2020-10-27T13:45:04.490Z [32minfo[39m: Handling total 114
+2020-10-27T13:45:04.580Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:13:45:04 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T13:39:22.946Z&toDate=2020-10-27T13:39:22.946Z HTTP/1.1" 200 33659 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T17:58:28.553Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:17:58:28 +0000] "GET /api/news/sources HTTP/1.1" 200 3566 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T18:04:03.672Z [32minfo[39m: WebClient API listening
+2020-10-27T18:04:03.682Z [32minfo[39m: MongoDB connected
+2020-10-27T18:04:08.894Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:18:04:08 +0000] "GET /api/news/sources HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T18:04:18.411Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:18:04:18 +0000] "GET /api/news/sources HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T18:04:24.364Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:18:04:24 +0000] "GET /api/news/sources HTTP/1.1" 200 3566 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T18:04:32.610Z [32minfo[39m: Fetching source abc-news-au news
+2020-10-27T18:04:33.100Z [32minfo[39m: Handling total 63
+2020-10-27T18:04:33.199Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:18:04:33 +0000] "GET /api/news/load?source=abc-news-au&fromDate=2020-10-27T18:04:18.734Z&toDate=2020-10-27T18:04:18.734Z HTTP/1.1" 200 33819 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T18:06:16.277Z [32minfo[39m: Fetching source bbc-news news
+2020-10-27T18:06:18.180Z [32minfo[39m: Handling total 178
+2020-10-27T18:06:18.216Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:18:06:18 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T18:06:14.359Z&toDate=2020-10-27T18:06:14.359Z HTTP/1.1" 200 33202 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T18:06:19.939Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:18:06:19 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T18:15:29.905Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:18:15:29 +0000] "GET /api/news/sources HTTP/1.1" 200 3566 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T18:15:30.181Z [32minfo[39m: Fetching source bbc-news news
+2020-10-27T18:15:31.005Z [32minfo[39m: Handling total 180
+2020-10-27T18:15:31.083Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:18:15:31 +0000] "GET /api/news/load?source=bbc-news&fromDate=2020-10-27T18:15:28.073Z&toDate=2020-10-27T18:15:28.073Z HTTP/1.1" 200 33140 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T18:25:33.074Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:18:25:33 +0000] "GET /babel/parser/lib/index.js HTTP/1.1" 404 164 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
+2020-10-27T18:25:34.272Z [32minfo[39m: ::ffff:127.0.0.1 - - [27/Oct/2020:18:25:34 +0000] "GET /api/news/sources HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+
